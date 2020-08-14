@@ -1,0 +1,3 @@
+include ':entities'
+include ':app'
+rootProject.name = "Weather Feature Modules"
