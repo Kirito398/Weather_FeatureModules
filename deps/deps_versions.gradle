@@ -1,0 +1,5 @@
+ext {
+    kotlinCoroutinesVersion = '1.3.3'
+
+    kotlinCoroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinCoroutinesVersion"
+}

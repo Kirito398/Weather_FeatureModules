@@ -1,4 +1,3 @@
 package ru.biozzlab.entities
 
-class MyClass {
-}
+class None
