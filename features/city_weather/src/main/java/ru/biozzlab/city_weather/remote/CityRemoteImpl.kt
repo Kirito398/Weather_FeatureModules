@@ -1,8 +1,8 @@
 package ru.biozzlab.city_weather.remote
 
 import ru.biozzlab.city_weather.data.CityRemote
-import ru.biozzlab.city_weather.domain.models.City
-import ru.biozzlab.city_weather.domain.type.Failure
+import ru.biozzlab.features.city_weather_api.domain.models.City
+import ru.biozzlab.features.city_weather_api.domain.type.Failure
 import ru.biozzlab.entities.Either
 
 class CityRemoteImpl(private val client: Api, private val request: Request) : CityRemote {

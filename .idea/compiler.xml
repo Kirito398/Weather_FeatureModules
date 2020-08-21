@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="city_weather_api" target="1.7" />
       <module name="entities" target="1.7" />
+      <module name="features-city_weather_api" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

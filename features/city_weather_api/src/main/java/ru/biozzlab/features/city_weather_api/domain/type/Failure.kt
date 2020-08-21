@@ -1,4 +1,4 @@
-package ru.biozzlab.city_weather.domain.type
+package ru.biozzlab.features.city_weather_api.domain.type
 
 sealed class Failure {
     object NetworkConnectionError : Failure()

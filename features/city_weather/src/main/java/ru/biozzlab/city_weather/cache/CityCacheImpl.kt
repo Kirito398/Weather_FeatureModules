@@ -3,8 +3,8 @@ package ru.biozzlab.city_weather.cache
 import ru.biozzlab.city_weather.cache.ConverterUtils.convertEntityToModel
 import ru.biozzlab.city_weather.cache.ConverterUtils.convertModelToEntity
 import ru.biozzlab.city_weather.data.CityCache
-import ru.biozzlab.city_weather.domain.models.City
-import ru.biozzlab.city_weather.domain.type.Failure
+import ru.biozzlab.features.city_weather_api.domain.models.City
+import ru.biozzlab.features.city_weather_api.domain.type.Failure
 import ru.biozzlab.entities.Either
 import ru.biozzlab.entities.None
 

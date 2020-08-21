@@ -1,3 +1,4 @@
+include ':features:city_weather_api'
 include ':features:city_weather'
 include ':entities'
 include ':app'

@@ -1,8 +1,8 @@
-package ru.biozzlab.city_weather.domain.interactor
+package ru.biozzlab.features.city_weather_api.domain.interactor
 
-import ru.biozzlab.city_weather.domain.interfaces.CityRepository
-import ru.biozzlab.city_weather.domain.models.City
-import ru.biozzlab.city_weather.domain.type.Failure
+import ru.biozzlab.features.city_weather_api.domain.interfaces.CityRepository
+import ru.biozzlab.features.city_weather_api.domain.models.City
+import ru.biozzlab.features.city_weather_api.domain.type.Failure
 import ru.biozzlab.entities.Either
 import ru.biozzlab.entities.UseCase
 

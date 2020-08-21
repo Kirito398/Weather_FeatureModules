@@ -9,9 +9,9 @@ import org.mockito.Mockito
 import org.mockito.Mockito.never
 import org.mockito.Mockito.times
 import org.mockito.MockitoAnnotations
-import ru.biozzlab.city_weather.domain.interfaces.CityRepository
-import ru.biozzlab.city_weather.domain.models.City
-import ru.biozzlab.city_weather.domain.type.Failure
+import ru.biozzlab.features.city_weather_api.domain.interfaces.CityRepository
+import ru.biozzlab.features.city_weather_api.domain.models.City
+import ru.biozzlab.features.city_weather_api.domain.type.Failure
 import ru.biozzlab.entities.Either
 
 class CityRepositoryImplTest {

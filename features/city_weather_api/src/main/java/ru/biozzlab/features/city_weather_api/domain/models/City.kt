@@ -1,4 +1,4 @@
-package ru.biozzlab.city_weather.domain.models
+package ru.biozzlab.features.city_weather_api.domain.models
 
 data class City(
     val cityName: String,

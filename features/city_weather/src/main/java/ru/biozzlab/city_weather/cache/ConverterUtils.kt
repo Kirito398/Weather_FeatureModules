@@ -1,7 +1,7 @@
 package ru.biozzlab.city_weather.cache
 
 import ru.biozzlab.city_weather.cache.entities.CityEntity
-import ru.biozzlab.city_weather.domain.models.City
+import ru.biozzlab.features.city_weather_api.domain.models.City
 
 object ConverterUtils {
     fun convertEntityToModel(cityEntity: CityEntity): City {

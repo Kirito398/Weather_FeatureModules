@@ -2,7 +2,7 @@ package ru.biozzlab.city_weather.remote
 
 import retrofit2.Call
 import retrofit2.Response
-import ru.biozzlab.city_weather.domain.type.Failure
+import ru.biozzlab.features.city_weather_api.domain.type.Failure
 import ru.biozzlab.entities.Either
 
 class Request(private val networkHandler: NetworkHandler) {
