@@ -5,6 +5,10 @@ ext {
     jUnitAndroidXVersion = '1.1.1'
     espressoCoreVersion = '3.2.0'
     roomVersion = '2.2.5'
+    retrofitVersion = '2.7.0'
+    retrofitGsonConverterVersion = '2.6.0'
+    okHttpVersion = '3.14.4'
+    okHttpLoggingInterceptorVersion = '3.12.8'
 
     //Coroutines
     kotlinCoroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinCoroutinesVersion"
@@ -25,4 +29,11 @@ ext {
     roomCompiler =  "androidx.room:room-compiler:$roomVersion"
     roomKtx = "androidx.room:room-ktx:$roomVersion"
 
+    //Retrofit
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:$retrofitGsonConverterVersion"
+
+    //okHttp
+    okHttp = "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:$okHttpLoggingInterceptorVersion"
 }

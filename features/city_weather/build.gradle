@@ -27,6 +27,10 @@ android {
 
 apply from: "$rootDir/deps/deps_versions.gradle"
 
+ext {
+    okHttpVersion = '3.8.1'
+}
+
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -36,6 +40,12 @@ dependencies {
 
     implementation roomKtx
     kapt roomCompiler
+
+    implementation retrofit
+    implementation retrofitGsonConverter
+
+    implementation okHttp
+    implementation okHttpLoggingInterceptor
 
     testImplementation jUnit
     androidTestImplementation jUnitAndroidX
