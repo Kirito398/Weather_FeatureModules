@@ -8,4 +8,5 @@ import ru.biozzlab.entities.None
 interface CityCache {
     fun loadCityData(cityName: String): Either<Failure, City>
     fun saveCityData(data: City): Either<Failure, None>
+    fun getDefaultCityName(): Either<Failure, String>
 }
